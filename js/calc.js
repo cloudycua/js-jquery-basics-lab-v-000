@@ -31,3 +31,19 @@ function calculate(num1, num2, operation) {
       break;
   }
 }
+
+function validate(operator, num1, num2) {
+  if (operator == "+" || operator == "-" || operator == "*" || operator == "/"){
+    if (isNaN(num1) || num1 === '' || isNaN(num2) || num2 === '' ){
+      $("#result").text('Sorry, one of those is not a valid number!');
+      return 'Sorry, one of those is not a valid number!'
+    }
+    else {
+      result(operator, num1, num2);
+    }
+  }
+  else {
+    $('#result').html("Sorry, that is not a valid operator");
+    return "Sorry, that is not a valid operator"
+  }
+}
