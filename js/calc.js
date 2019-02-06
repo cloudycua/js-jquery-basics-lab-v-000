@@ -2,9 +2,9 @@ $(document).ready(function(){
   result()
 })
 
-var num1 = parseFloat($('#number1').val())
-var num2 = parseFloat($('#number2').val())
-var operation = $('#operation').val()
+var num1 = $('#number1');
+var num2 = $('#number2');
+var operation = $('#operation');
 
 function result() {
   $('#equals').on('click', function() {
