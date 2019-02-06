@@ -8,7 +8,7 @@ var operater = $('#operater').val()
 
 function result() {
   $('#equals').on('click', function() {
-    $('#result').html(calculate())
+    $('#result').html(num1)
   })
 }
 
