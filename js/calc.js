@@ -39,7 +39,7 @@ function validate(operator, num1, num2) {
       return 'Sorry, one of those is not a valid number!'
     }
     else {
-      result(operator, num1, num2);
+      calculate(operation, num1, num2);
     }
   }
   else {
