@@ -11,7 +11,7 @@ function result() {
     num1 = parseFloat(num1.val());
     num2 = parseFloat(num2.val());
     operation = operation.val();
-    
+
   })
 }
 
