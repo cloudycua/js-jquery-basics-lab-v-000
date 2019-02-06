@@ -7,7 +7,7 @@ var num2 = parseFloat($('#number2').val())
 var operation = $('#operation').val()
 
 function result() {
-  $('').on('click', function() {
+  $('#result').on('click', function() {
     return $('#result').val(calculate())
   })
 }
