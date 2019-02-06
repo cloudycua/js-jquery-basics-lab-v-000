@@ -8,7 +8,8 @@ var operation = $('#operation').val()
 
 function result() {
   $('#result').on('click', function() {
-    return $('#result').val(calculate())
+    return $('#result').html(calculate())
+    return calculate()
   })
 }
 
