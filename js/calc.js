@@ -12,22 +12,18 @@ function result() {
 }
 
   function calculate(num1, num2, operater) {
-    var answer = 0
-
     switch (operater) {
       case "+":
-        answer = num1 + num2;
+        return num1 + num2;
         break;
       case "/":
-        answer = num1 / num2;
+        return num1 / num2;
         break;
       case "-":
-        answer = num1 - num2;
+        return num1 - num2;
         break;
       case "*":
-        answer = num1 * num2;
+        return num1 * num2;
         break;
     }
-
-    return answer
   }
