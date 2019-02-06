@@ -7,7 +7,7 @@ function result() {
     var num1 = parseFloat($('#number1').val())
     var num2 = parseFloat($('#number2').val())
     var operater = $('#operater').val()
-    $('#result').html(1)
+    $('#result').html()
   })
 }
 
