@@ -3,7 +3,7 @@ $(document).ready(function(){
 })
 
 function result() {
-  $('#result').on('click', function() {
+  $('#equals').on('click', function() {
     var num1 = parseFloat($('#number1').val())
     var num2 = parseFloat($('#number2').val())
     var operation = $('#operation').val()
