@@ -8,6 +8,7 @@ function result() {
     var num2 = parseFloat($('#number2').val())
     var operater = $('#operater').val()
     $('#result').html(num1 + num2))
+    return num1 + num2
   })
 }
 
