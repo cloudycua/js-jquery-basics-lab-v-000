@@ -2,12 +2,11 @@ $(document).ready(function(){
   result()
 })
 
-var num1 = parseFloat($('#number1').val())
-var num2 = parseFloat($('#number2').val())
-var operation = $('#operation').val()
-
 function result() {
   $('#result').on('click', function() {
+    var num1 = parseFloat($('#number1').val())
+    var num2 = parseFloat($('#number2').val())
+    var operation = $('#operation').val()
     return $('#result').html(calculate(num1, num2, operation))
   })
 }
