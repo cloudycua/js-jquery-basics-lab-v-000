@@ -9,7 +9,6 @@ var operation = $('#operation').val()
 function result() {
   $('#result').on('click', function() {
     return $('#result').html(calculate(num1, num2, operation))
-    return calculate(num1, num2, operation)
   })
 }
 
