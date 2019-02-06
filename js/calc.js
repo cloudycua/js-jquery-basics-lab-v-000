@@ -4,7 +4,7 @@ $(document).ready(function(){
 
 var num1 = parseFloat($('#number1').val())
 var num2 = parseFloat($('#number2').val())
-var operater = $('#operation').val()
+var operation = $('#operation').val()
 
 function result() {
   $('#equals').on('click', function() {
@@ -13,7 +13,7 @@ function result() {
 }
 
   function calculate() {
-    switch (operater) {
+    switch (operation) {
       case "+":
         return num1 + num2;
         break;
