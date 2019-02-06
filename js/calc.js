@@ -40,7 +40,7 @@ function validate(num1, num2, operation) {
     }
     else {
       $('#result').html(calculate(num1, num2, operation));
-      return calculate(num1, num2, operation);
+      return calculate(num1, num2, operation)
     }
   }
   else {
