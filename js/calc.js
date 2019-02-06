@@ -8,7 +8,7 @@ function result() {
     var num2 = $('#number2').val()
     var operation = $('#operation').val()
 
-    $('#result').val(calculate())
+    return $('#result').val(calculate())
   })
 }
 
