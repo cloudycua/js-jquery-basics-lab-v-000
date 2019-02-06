@@ -1,5 +1,5 @@
 $(document).ready(function(){
-  result()
+  doMath()
 })
 
 var num1 = $('#number1');
