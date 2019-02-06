@@ -4,11 +4,12 @@ $(document).ready(function(){
 
 function result() {
   $('#equals').on('click', function() {
-    var num1 = parseFloat($('#number1').val())
-    var num2 = parseFloat($('#number2').val())
-    var operater = $('#operater').val()
-    answer = calculate(num1, num2, operater)
-    $('#result').html(answer)
+    $('#result').html(5)
+//    var num1 = parseFloat($('#number1').val())
+//    var num2 = parseFloat($('#number2').val())
+//    var operater = $('#operater').val()
+//    answer = calculate(num1, num2, operater)
+//    $('#result').html(answer)
   })
 }
 
