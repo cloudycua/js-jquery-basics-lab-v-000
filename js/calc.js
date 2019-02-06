@@ -23,7 +23,7 @@ function result() {
         result = num1 * num2;
         break;
       }
-        
+
     }
   })
 }
