@@ -11,11 +11,11 @@ function doMath() {
     num1 = parseFloat(num1.val());
     num2 = parseFloat(num2.val());
     operation = operation.val();
-    validate(num1, num2, operation);
+    validate(operation, num1, num2);
   })
 }
 
-function result(num1, num2, operation) {
+function result(operation, num1, num2) {
   switch (operation) {
     case "+":
       return num1 + num2;
@@ -32,7 +32,7 @@ function result(num1, num2, operation) {
   }
 }
 
-function validate(num1, num2, operation) {
+function validate(operation, num1, num2) {
   if (operation == "+" || operation == "-" || operation == "*" || operation == "/"){
     if (isNaN(num1) || num1 === '' || isNaN(num2) || num2 === '' ){
       $("#result").text('Sorry, one of those is not a valid number!');
