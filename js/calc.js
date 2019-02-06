@@ -25,7 +25,7 @@ function result() {
       case "-":
         answer = num1 - num2;
         break;
-      case "*"
+      case "*":
         answer = num1 * num2;
         break;
     }
