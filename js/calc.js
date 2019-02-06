@@ -11,7 +11,7 @@ function result() {
     num1 = parseFloat(num1.val());
     num2 = parseFloat(num2.val());
     operation = operation.val();
-
+    validate(num1, num2, operation);
   })
 }
 
@@ -32,7 +32,7 @@ function calculate(num1, num2, operation) {
   }
 }
 
-function validate(operator, num1, num2) {
+function validate(num1, num2, operation) {
   if (operator == "+" || operator == "-" || operator == "*" || operator == "/"){
     if (isNaN(num1) || num1 === '' || isNaN(num2) || num2 === '' ){
       $("#result").text('Sorry, one of those is not a valid number!');
