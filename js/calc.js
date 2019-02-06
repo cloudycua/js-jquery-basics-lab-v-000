@@ -9,7 +9,7 @@ function result() {
     var operation = $('#operation').val()
 
     debugger
-    
+
     return $('#result').val(calculate())
   })
 }
