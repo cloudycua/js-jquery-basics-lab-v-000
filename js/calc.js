@@ -39,7 +39,7 @@ function validate(num1, num2, operation) {
       return 'Sorry, one of those is not a valid number!'
     }
     else {
-      $('#result').html(calculate(num1, num2, operation));
+      $('#result').html(result(num1, num2, operation));
     }
   }
   else {
