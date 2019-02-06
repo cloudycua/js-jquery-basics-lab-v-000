@@ -2,19 +2,15 @@ $(document).ready(function(){
   result()
 })
 
-  var num1
-  var num2
-  var operation
+var num1 = parseFloat($('#number1').val())
+var num2 = parseFloat($('#number2').val())
+var operation = $('#operation').val()
 
-  function result() {
-    $('').on('click', function() {
-      var num1 = $('#number1').val()
-      var num2 = $('#number2').val()
-      var operation = $('#operation').val()
-
-      return $('#result').val(calculate())
-    })
-  }
+function result() {
+  $('').on('click', function() {
+    return $('#result').val(calculate())
+  })
+}
 
   function calculate(num1, num2, operation) {
     var result = 0
