@@ -8,6 +8,8 @@ function result() {
     var num2 = $('#number2').val()
     var operation = $('#operation').val()
 
+    debugger
+    
     return $('#result').val(calculate())
   })
 }
