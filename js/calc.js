@@ -6,5 +6,12 @@ function result() {
   $('').on('click', function() {
     var num1 = $('#number1').val()
     var num2 = $('#number2').val()
+    var operation = $('#operation').val()
+
+    switch (operation) {
+      case "+":
+        return num1 + num2
+        
+    }
   })
 }
