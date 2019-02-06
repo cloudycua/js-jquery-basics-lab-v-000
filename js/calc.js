@@ -33,7 +33,7 @@ function calculate(num1, num2, operation) {
 }
 
 function validate(num1, num2, operation) {
-  if (operator == "+" || operator == "-" || operator == "*" || operator == "/"){
+  if (operation == "+" || operation == "-" || operation == "*" || operation == "/"){
     if (isNaN(num1) || num1 === '' || isNaN(num2) || num2 === '' ){
       $("#result").text('Sorry, one of those is not a valid number!');
       return 'Sorry, one of those is not a valid number!'
