@@ -6,15 +6,15 @@ function result() {
   $('#equals').on('click', function() {
     var num1 = parseFloat($('#number1').val())
     var num2 = parseFloat($('#number2').val())
-    var operation = $('#operation').val()
+    var operater = $('#operater').val()
     $('#result').html(num1 + num2))
   })
 }
 
-  function calculate(num1, num2, operation) {
+  function calculate(num1, num2, operater) {
     var answer = 0
 
-    switch (operation) {
+    switch (operater) {
       case "+":
         answer = num1 + num2;
         break;
