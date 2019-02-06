@@ -11,11 +11,11 @@ function result() {
     num1 = parseFloat(num1.val());
     num2 = parseFloat(num2.val());
     operation = operation.val();
-    $('#result').html(calculation(num1, num2, operation))
+    $('#result').html(calculate(num1, num2, operation))
   })
 }
 
-  function calculate() {
+  function calculate(num1, num2, operation) {
     switch (operation) {
       case "+":
         return num1 + num2;
