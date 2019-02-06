@@ -11,7 +11,7 @@ function result() {
     num1 = parseFloat(num1.val());
     num2 = parseFloat(num2.val());
     operation = operation.val();
-    $('#result').html(calculate(num1, num2, operation))
+    
   })
 }
 
@@ -39,7 +39,7 @@ function validate(operator, num1, num2) {
       return 'Sorry, one of those is not a valid number!'
     }
     else {
-      calculate(operation, num1, num2);
+      $('#result').html(calculate(num1, num2, operation))
     }
   }
   else {
