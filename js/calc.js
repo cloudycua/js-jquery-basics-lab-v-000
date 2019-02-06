@@ -8,6 +8,9 @@ var operation = $('#operation');
 
 function result() {
   $('#equals').on('click', function() {
+    num1 = parseFloat(num1.val());
+    num2 = parseFloat(num2.val());
+    operation = operation.val();
     $('#result').html(num1 + num2)
   })
 }
